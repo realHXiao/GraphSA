@@ -45,10 +45,10 @@ python train.py -d path_to/my_dataset.npz --model_config path_to/gin_config.json
 ## Training results
 | Methods      |  MSE       | r.m.s.e.  | R2        |
 | :--:         | :--:       | :--:      | :--:      |
-| GIN          | 0.639      | 0.799     | 0.614     |
-| GAT          | 0.709      | 0.842     | 0.572     |
-| GCN          | 0.671      | 0.819     | 0.595     |
-| GAT_GCN      | 0.627      | 0.792     | 0.622     |
+| GIN          | 0.967      | 0.984     | 0.718     |
+| GCN          | 0.925      | 0.962     | 0.730     |
+| GAT          | 0.872      | 0.934     | 0.745     |
+| GAT_GCN      | 0.869      | 0.932     | 0.746     |
 
 The trained models are available in the Figshare database with DOI:. 
 
