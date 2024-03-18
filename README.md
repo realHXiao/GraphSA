@@ -50,8 +50,6 @@ python train.py -d path_to/my_dataset.npz --model_config path_to/gin_config.json
 | GAT-based     | 0.872      | 0.934     | 0.745     |
 | GAT_GCN-based | 0.869      | 0.932     | 0.746     |
 
-The trained models are available in the Figshare database with DOI:. 
-
 ## Prediction
 The input for prediction.py:
 + If you want to predict SA values of different seuqences corresponding to different substrate SMILES codes, use csv file as input. The format of csv file please refer to the example.csv file. The commond line example for prediction:
